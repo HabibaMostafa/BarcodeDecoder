@@ -164,7 +164,7 @@ def main():
 
 ################ Program Functions #################
 
-def generate_magna_template(OBJECT):
+def generate_template(OBJECT):
     c = []
     for indice in range(OBJECT.decoderLength):
             c.append(CharacterRule(indice,OBJECT.char_rule_array[indice]))
